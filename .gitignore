@@ -28,5 +28,8 @@ dist-ssr
 .env.*
 !.env.example
 
-# Temporary remote cache
-data/remote-cache.json
+# Local books & runtime data (download on-demand)
+books/*
+!books/.gitkeep
+data/*
+!data/.gitkeep
