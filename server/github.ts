@@ -266,11 +266,11 @@ export class GitHubService {
 
       const mirrorList = useMirror ? mirrors : [''];
 
-      for (const m of mirrorList) {
+        for (const m of mirrorList) {
         const fetchUrl = m ? `${m}${rawUrl}` : rawUrl;
         try {
           const controller = new AbortController();
-          const timeoutId = setTimeout(() => controller.abort(), 12000);
+          const timeoutId = setTimeout(() => controller.abort(), 60000);
 
           const fileRes = await fetch(fetchUrl, {
             signal: controller.signal,
