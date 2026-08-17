@@ -28,8 +28,10 @@ dist-ssr
 .env.*
 !.env.example
 
-# Local books & runtime data (download on-demand)
+# Local books (download on-demand)
 books/*
 !books/.gitkeep
-data/*
-!data/.gitkeep
+
+# User personal reading history & temp cache
+data/storage.json
+data/remote-cache.json
