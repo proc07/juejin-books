@@ -1,0 +1,9 @@
+{
+  "repoUrl": "https://github.com/lm-rebooter/NuggetsBooklet.git",
+  "owner": "lm-rebooter",
+  "repo": "NuggetsBooklet",
+  "branch": "master",
+  "token": "",
+  "useMirror": true,
+  "mirrorPrefix": "https://ghfast.top/"
+}
